@@ -1,0 +1,114 @@
+body{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background: url('back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	height:500px;
+}
+.allMenu{
+	margin-bottom: 100px;
+	text-align: right;
+	padding:3%;
+	font-family: Aclonica;
+}
+.allMenu a{
+	text-decoration: none;
+	color: white;
+	padding:2%;
+	animation-name: displayMenu;
+	animation-duration: 2s;
+}
+.allMenu a:hover{
+	border:1px solid white;
+}
+@keyframes displayMenu{
+	from{
+		margin: -5%;
+	}
+	to{
+		margin: inherit;
+	}
+}
+.inPage{
+	border:1px solid white;	
+}
+.headerContent{
+	font-size: 50px;
+	font-family: Aladin;
+	text-shadow: 2px 2px 2px black;
+	animation-name: firstNameAnimation;
+	animation-duration: 2s;
+}
+@keyframes firstNameAnimation{
+	from{
+		color:grey;
+	}
+	to{
+		color:white;
+	}
+}
+.statusHeader{
+	font-size: 45px;
+	color:rgb(128,128,128);
+	font-family: Antic;
+}
+.myCurrentStatus{
+	font-size: 25px;
+	color:rgb(60,60,60);
+	padding:0% 20% 10% 20%;
+	font-family: Aladin;
+}
+footer{
+	background: black;
+	background-attachment: fixed;
+	color:white;
+	padding: 5%;
+}
+/* Contact form CSS */
+form{
+	margin:5% 0 5% 35%;
+}
+td{
+	font-family: Aldrich;
+	padding: 5%;
+}
+.inputt{
+	padding: 4%;
+	border-radius: 3%;
+	box-shadow: 3px 3px 3px black;
+}
+.messageClass{
+	padding: 4% 4% 40% 4%;
+	border-radius: 3%;	
+	box-shadow: 3px 3px 3px black;
+}
+.submitBtn{
+	border-radius: 3%;
+	padding: 10% 10% 10% 5%;
+	border:1px solid black;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px black;
+}
+
+/* Social Media Css */
+.imageIcon{
+	width: 10px;
+	height: 10px;
+}
+.imageIcon:hover{
+	width: 20px;
+	height: 20px;
+}
+
+/* About me */
+.aboutMe{
+	font-family: Aladin;
+	font-size: 30px;
+	margin:0 38% 0 3%;
+	text-align:right;
+}
